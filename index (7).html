@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DALAYAR Bicycle</title>
+  <style>
+    /* รีเซ็ต margin/padding */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f5f5f5;
+    }
+
+    /* กล่องโลโก้ */
+    .logo-container {
+      text-align: center;
+    }
+
+    /* โลโก้ responsive */
+    .logo-container img {
+      max-width: 250px;   /* ขนาดสูงสุดบนเดสก์ท็อป */
+      width: 80%;         /* ปรับตามหน้าจอ */
+      height: auto;
+    }
+
+    /* ปรับสำหรับหน้าจอเล็ก */
+    @media (max-width: 600px) {
+      .logo-container img {
+        max-width: 180px; /* ลดขนาดโลโก้บนมือถือ */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <!-- ใช้ไฟล์โลโก้ที่คุณมี -->
+<img src="https://uploads.onecompiler.io/445r76a24/448wvb6ep/1000049419.png" />
+    <h1>DALAYAR Bicycle</h1>
+  </div>
+</body>
+</html>
